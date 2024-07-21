@@ -7,6 +7,10 @@ import torch
 # css_code='body{background-image:url("https://users.wpi.edu/~rcpaffenroth/images/randy_cropped.png");}'
 # gr.Interface(lambda x:x, "textbox", "textbox", css=css_code).launch(debug=True)
 
+big_block = gr.HTML("""
+    <div style='height: 800px; width: 100px; background-color: pink;'></div>
+    """)
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 if torch.cuda.is_available():
