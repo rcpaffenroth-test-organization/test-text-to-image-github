@@ -41,6 +41,7 @@ examples = [
     "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k",
     "An astronaut riding a green horse",
     "A delicious ceviche cheesecake slice",
+    "Ponytails are awesome",
 ]
 
 css="""
