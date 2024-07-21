@@ -4,8 +4,9 @@ import random
 from diffusers import DiffusionPipeline
 import torch
 
-css_code='body{background-image:url("https://users.wpi.edu/~rcpaffenroth/images/randy_cropped.png");}'
-gr.Interface(lambda x:x, "textbox", "textbox", css=css_code).launch(debug=True)
+# css_code='body{background-image:url("https://users.wpi.edu/~rcpaffenroth/images/randy_cropped.png");}'
+# gr.Interface(lambda x:x, "textbox", "textbox", css=css_code).launch(debug=True)
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 if torch.cuda.is_available():
