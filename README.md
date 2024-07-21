@@ -1,3 +1,4 @@
+---
 title: Test Text To Image
 emoji: 🖼
 colorFrom: purple
