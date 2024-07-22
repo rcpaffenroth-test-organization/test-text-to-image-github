@@ -34,7 +34,7 @@ def infer(prompt, negative_prompt, seed, randomize_seed, width, height, guidance
     
     image = pipe(
         prompt = prompt, 
-        negative_prompt = negative_prompt,
+        negative_prompt = negative_prompt, 
         guidance_scale = guidance_scale, 
         num_inference_steps = num_inference_steps, 
         width = width, 
